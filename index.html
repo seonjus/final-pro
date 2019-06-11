@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catch Me If You Can!</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron:900&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		section{width: 1000px height: 600px; margin: auto; position: relative; margin-bottom: 30px;}
+		html{background-color: black;cursor: url(cursor.cur),auto;}
+
+
+		.wrap{width: 1000px; margin: auto; background-color: white;}
+		.section1{background:black;height: 750px;}
+		.section2{background: url('sky.jpg');height: 600px; background-size: cover; overflow: hidden;}
+		.section3{background: url('home.jpg');height: 600px; background-size: cover; overflow: hidden;}
+		.section4{background: url('town.jpg');height: 600px; background-size: cover; overflow: hidden;}
+		.section5{background: url('bon.png');height: 600px; background-size: cover; overflow: hidden;}
+		.section6{background: url('universe.jpg');height: 600px; background-size: cover; overflow: hidden;}
+		.clear{height: 600px; font-size: 80px; margin: auto; text-align: center; font-family: 'Orbitron', sans-serif;}
+		.one{font-size: 100px; margin: auto; text-align: center; font-family: 'Orbitron', sans-serif;color: white; padding-top:  150px;}
+		.two{font-size: 100px; margin: auto; text-align: center; font-family: 'Orbitron', sans-serif; color: white;}
+		.abc{padding-top: 210px;}
+
+
+
+
+
+		.universe1{width: 350px;display: block; position: absolute; left: -130px; top: 50px; }
+		.universe2{width: 400px; display: block; position: absolute; left: 230px; top: 70px;}
+		.universe3{width: 300px;display: block; position: absolute; right: 60px; bottom: 90px;}
+
+		.gauge{width: 150px;display: block; position: absolute; right: 10px; bottom: 10px;}
+
+		.toon1{width: 270px; display: block; position: absolute; left: 8px; top: 50px;}
+		.toon2{width: 500px; display: block; position: absolute; left:230px; bottom: -200px;}
+		.toon3{width: 200px; display: block; position: absolute; right: 50px; top: 50px;}
+
+		.meaw1{width: 300px; display: block; position: absolute; left: 50px; bottom: -70px;}
+		.meaw2{width: 300px; display: block; position: absolute; left: 300px; top: 50px;}
+		.meaw3{width: 300px; display: block; position: absolute; right: -50px; bottom: 200px;}
+		.meaw4{width: 150px; display: block; position: absolute; left: 550px; bottom: 100px;}
+
+		.oil1{width: 150px; display: block; position: absolute; left: 450px; bottom: 180px;}
+		.oil2{width: 320px; display: block; position: absolute; left: 30px; bottom: 10px;}
+		.oil3{width: 350px; display: block; position: absolute; right: -100px; top: 130px;}
+
+		.dong1{width: 450px;display: block; position: absolute; left: 200px; top: 210px;}
+		.dong2{width: 200px;display: block; position: absolute; left: 100px; top: 50px;}
+		.dong3{width: 300px;display: block; position: absolute; left: 700px; top: 100px;}
+
+
+		footer {height: 400px;display: block;color: white; text-align: center; padding-top: 300px;}
+
+
+
+
+
+
+
+
+		.target1{ position: absolute; display: none;  width:500px; animation: tani 2s linear;}
+		@keyframes tani{
+			5%{width:800px;}
+			10%{width:500px;}
+			100%{width: 500px;}
+
+		}
+
+		.target2{ position: absolute; display: none;  width:400px; animation: anni 2s linear;}
+		@keyframes anni{
+			5%{width:600px;}
+			10%{width:400px;}
+			100%{width: 400px;}
+
+		}
+
+		.target3{ position: absolute; display: none;  width:200px; animation: bini 2s linear;}
+		@keyframes bini{
+			5%{width:400px;}
+			10%{width:200px;}
+			100%{width: 200px;}
+
+		}
+
+		.lo{animation: lo 1s infinite alternate;}
+		@keyframes lo{
+			{transform:  rotate(20deg) ;position: absolute;}
+
+		}
+
+
+
+
+
+
+
+
+
+		.t01{ top:5px; left:10px; }
+		.t02{ top:300px; left:300px; }
+		.t03{ top:400px; left:700px; }
+
+		.t04{ top:100px; left:50px; }
+		.t05{ top:200px; left:300px; }
+		.t06{ top: 50px; left: 600px; }
+
+		.t07{ top: 300px; left:10px; }
+		.t08{ top: 50px; left: 200px; }
+		.t09{top:50px; left: 600px;}
+
+		.t10{top: 50px; left: 250px;}
+		.t11{top: 400px; left: 80px;}
+		.t12{top: 260px; left: 700px;}
+
+		.t13{top:300px; left: 350px;}
+		.t14{top: 5px; left: 30px;}
+		.t15{top: 200px; left: 600px;}
+
+
+
+
+		nav{width: 700px; margin: auto;}
+		#menu{margin: 0px; padding: 0px;}
+		#menu li{ float: left; list-style-type: none;}
+		#menu li a {display: block; padding: 20px 10px; text-align: center; text-decoration: none; font-weight: bold; color: white; padding-left: 50px; padding-top: 150px;}
+		#ROUND1{}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<section class="section1">
+			<p class="one">CATCH ME</p>
+			<p class="two">IF YOU CAN!</p>
+			<nav>
+				<ul id="menu">
+					<li><a href="#ROUND1" target="_self">ROUND1</a></li>
+					<li><a href="#ROUND2" target="_self">ROUND2</a></li>
+					<li><a href="#ROUND3" target="_self">ROUND3</a></li>
+					<li><a href="#ROUND4" target="_self">ROUND4</a></li>
+					<li><a href="#ROUND5" target="_self">ROUND5</a></li>
+				</ul>
+			</nav>
+		</section>
+		<section class="section2" id="ROUND1">
+			<img src="5.png" class="universe1" onclick="pop1.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="boom.png" class="target1 t01" id="pop1">
+
+			<img src="2.png" class="universe2"  onclick="pop2.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="bang.png" class="target2 t02" id="pop2" >
+
+			<img src="6.png" class="universe3"  onclick="pop3.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="pow.png" class="target3 t03" id="pop3">
+
+			<img src="gauge.png" class="gauge">
+		</section>
+		<section class="section3" id="ROUND2">
+			<img src="toon1.png" class="toon1" onclick="pop4.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="bang.png" class="target3 t04" id="pop4">
+
+			<img src="toon2.png" class="toon2" onclick="pop5.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="boom.png" class="target1 t05" id="pop5">
+
+			<img src="toon3.png" class="toon3" onclick="pop6.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="pow.png" class="target2 t06" id="pop6">
+
+			<img src="gauge.png" class="gauge">
+		</section>
+				<section class="section5" id="ROUND3">
+			<img src="meaw1.png" class="meaw1" onclick="pop7.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="pow.png" class="target2 t07" id="pop7">
+
+			<img src="meaw2.png" class="meaw2" onclick="pop8.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="bang.png" class="target2 t08" id="pop8">
+
+			<img src="meaw3.png" class="meaw3" onclick="pop9.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="boom.png" class="target1 t09" id="pop9">
+
+			<img src="meaw4.png" class="meaw4">
+
+
+			<img src="gauge.png" class="gauge">
+		</section>
+		<section class="section4" id="ROUND4">
+			<img src="oil1.png" class="oil1" onclick="pop10.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="bang.png" class="target1 t10" id="pop10">
+
+			<img src="oil2.png" class="oil2" onclick="pop11.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="pow.png" class="target3 t11" id="pop11">
+
+			<img src="oil3.png" class="oil3" onclick="pop12.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="boom.png" class="target2 t12" id="pop12">
+
+
+			<img src="gauge.png" class="gauge">
+		</section>
+		<section class="section6" id="ROUND5">
+			<img src="dong1.png" class="dong1" onclick="pop13.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="boom.png" class="target3 t13" id="pop13">
+
+			<img src="dong2.png" class="dong2" onclick="pop14.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="pow.png" class="target2 t14" id="pop14">
+
+			<img src="dong3.png" class="dong3" onclick="pop15.style.display = 'block'; this.style.display = 'none'; ">
+			<img src="bang.png" class="target1 t15" id="pop15">
+
+			<img src="gauge.png" class="gauge">
+
+		</section>
+
+		<section class="clear">
+			<p class="abc">CLEAR!</p>
+		</section>
+	</div>
+	<footer>
+		<p>CATCH ME IF YOU CAN!</p>
+		<p>copyright©2019 HKNU DESIGN Seonju Sim. all rights reserved.</p>
+	</footer>
+</body>
+</html>
